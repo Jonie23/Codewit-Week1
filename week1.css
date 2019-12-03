@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.header{
+    background-color:rgb(230, 46, 61);
+    padding: 40px;
+}
+
+ul,li,a{
+    list-style: none;
+    display: inline-block;
+    font-size: 30px;
+    padding-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(53, 181, 69)
+}
+
+.container>div:nth-child(odd){
+    background-color:rgb(186, 181, 153);
+    padding: 50px;
+    box-shadow: -2px 2px rgb(230, 46, 61);
+}
+
+.container>div:nth-child(even){
+    background-color: rgb(237, 145, 209);
+    padding: 50px;
+    box-shadow: 2px 2px rgb(230, 46, 61);
+}
+
+#bnsignin{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 3px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    border: none;
+    background-color: rgb(230, 46, 61); 
+    color: white;
+}
+
+#bnsignin:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+#bnregister{
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 3px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size:20px;
+    font-weight: normal;
+    color: white;
+    background-color: rgb(230, 46, 61);
+}
+
+#bnregister:hover{
+    background-color:  rgb(20, 20, 20);
+}
